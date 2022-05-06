@@ -20,7 +20,6 @@ func main() {
 	defer client.Close()
 
 	// Sets the text to analyze.
-	//text := "Hello, world!"
 	text := "It's frustrating!"
 
 	// Detects the sentiment of the text.
