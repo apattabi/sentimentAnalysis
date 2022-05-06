@@ -20,8 +20,7 @@ func main() {
 	defer client.Close()
 
 	// Sets the text to analyze.
-	//text := "Hello, world!"
-	text := "It's frustrating!"
+	text := "I'm happy this works!"
 
 	// Detects the sentiment of the text.
 	sentiment, err := client.AnalyzeSentiment(ctx, &languagepb.AnalyzeSentimentRequest{
